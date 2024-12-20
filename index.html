@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weihnachts-Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('weihnachten-hintergrund-nahtloses-kacheln-gute-wahl-fur-geschenkpapier-muster-vektor-h9ngae.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: black;
+            margin: 0;
+            padding: 0;
+        }
+        #app {
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+            padding: 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            text-align: center;
+            font-weight: bold;
+            color: black;
+            background-color: rgba(200, 200, 200, 0.8);
+        }
+        li:hover {
+            opacity: 0.9;
+            transform: scale(1.02);
+            transition: all 0.3s ease-in-out;
+        }
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: darkblue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: navy;
+        }
+        video {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+        }
+        .penguin {
+            display: block;
+            margin: 20px auto;
+            width: 150px;
+        }
+        #final-message {
+            display: none;
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            max-width: 800px;
+            margin: 50px auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <!-- Der Inhalt des Quizzes wird hier dynamisch geladen -->
+    </div>
+
+    <div id="final-message">
+        <h1>Frohe Weihnachten Weibi ❤️</h1>
+        <p>I möcht da sagen, wie sehr i di und unsere stetig wachsende Familie liebe. Du bist das Herzstück des Ganzen und mei Rückhalt in allen Lebenslagen ⚓. Des letzte Jahr war wahrscheinlich des schwierigste und anstrengendste unseres bisherigen Lebens als Pädagoge und Baumeister zugleich🤱🏽👷🏽‍♂️, aber i bin super zuversichtlich für 2025, wenn ma endlich unser eigenes Zuhause fertig haben und entspannt auf da Terrasse sitzen kinan mit am Bier und klassischer Musik aus den Boxen 😎🍻</p>
+        <p>Vielen Dank dassd ned aufhörst ma immer wieder Sachen zu sagen de i leider doch wieder vergessen hab und mi trotzdem aushältst.</p>
+        <video controls autoplay>
+            <source src="clip.mp4" type="video/mp4">
+            Dein Browser unterstützt keine Videos.
+        </video>
+    </div>
+
+    <img class="penguin" src="tenor.gif" alt="Dancing Penguin">
+
+    <!-- Einbindung der JavaScript-Datei -->
+    <script src="quiz-app.js"></script>
+</body>
+</html>
